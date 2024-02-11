@@ -1,0 +1,51 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: #354f52;
+    color: White;
+}
+
+img{
+    align-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+  }
+
+#select{
+    margin: 10px;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    
+  }
+ 
+  #price
+  {
+    margin:0;
+  }
+  #min_room
+  {
+    margin:0;
+  }
+  

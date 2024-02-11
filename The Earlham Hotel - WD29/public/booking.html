@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Earlham Park Hotel</title>
+    <link rel="stylesheet" href="css/bookstyle.css">
+    
+
+    <!-- CSS Stylesheets -->
+    
+    <link rel="stylesheet" href="css/styles.css">
+  
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3e46b36983.js" crossorigin="anonymous"></script>
+  
+    <!-- Bootstrap Scripts -->
+    
+  
+    
+  
+
+    <!-- CSS Stylesheets -->
+  
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="formdata.js" defer ></script>
+    
+</head>
+
+<body>
+   
+    <img src="images\logo.png" id="logo"/>
+    
+
+    <h1>Check Availibility</h1>
+
+    <!-- Form -->
+
+     <form action="" method="post" id="availableform">
+        <!--
+
+    <div class="elem-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+        <label for="email">Your E-mail</label>
+        <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+    </div>
+    <div class="elem-group">
+        <label for="phone">Your Phone</label>
+        <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872"
+               pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+    </div>
+    <hr>
+        -->
+
+        <div class="elem-group inlined">
+            <label for="adult">Adults</label>
+            <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+        </div>
+        <div class="elem-group inlined">
+            <label for="child">Children</label>
+            <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+        </div>
+        <div class="elem-group inlined">
+            <label for="checkin-date">Check-in Date</label>
+            <input type="date" id="checkindate" name="checkin" required>
+        </div>
+        <div class="elem-group inlined">
+            <label for="checkout-date">Check-out Date</label>
+            <input type="date" id="checkoutdate" name="checkout" required>
+        </div>
+        <div class="elem-group">
+            <label for="room-selection">Select Room Preference</label>
+            <select id="roomselection" name="room_preference" required>
+                <option value="">Choose a Room from the List</option>
+                <option value="std_t">Standard Twin</option>
+                <option value="std_d">Standard Deluxe</option>
+                <option value="sup_t">Super Twin</option>
+                <option value="sup_d">Super Deluxe</option>
+               
+            </select>
+        </div>
+        <hr>
+
+        <center><button type="submit">Check Availability</button></center></form>
+        <br>
+    </form>
+        <hr>
+      
+        <p>Want to change Booking Details?</p>
+        <button type="button" id="edit">Edit Details</button>
+        <footer class="colored-section" id="footer">
+
+
+            <div class="container-fluid">
+              <i class="social-icon fab fa-facebook-f"></i>
+              <i class="social-icon fab fa-twitter"></i>
+              <i class="social-icon fab fa-instagram"></i>
+              <i class="social-icon fas fa-envelope"></i>
+              <p class="icon">© Copyright 2022 Earlham Park Hotel</p>
+            </div>
+          </footer>
+
+
+</body>
+
+</html>

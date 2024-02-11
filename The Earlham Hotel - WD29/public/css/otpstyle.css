@@ -1,0 +1,70 @@
+@media screen and (min-width: 480px) {
+    body{
+      font-family: "Montserrat";
+      text-align: center;
+      background-color: #354f52;
+      color: White;
+      }
+  
+  }
+
+  #subotp{
+    font-family: "Montserrat-Bold";
+    border-radius: 4px;
+    background-color: whitesmoke;
+    border: black;
+    color: #354f52;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    height: auto;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  #subotp span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #subotp span:after {
+    
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #subotp:hover span {
+    padding-right: 10px;
+  }
+  
+  #subotp:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  div {
+    align-items: center;
+    background-color: #354f52;
+    width: 300px;
+    border: 15px solid yellow;
+    padding: 50px;
+    border-radius: 4px;
+    margin: 150px;
+  }
+
+  a{
+    color: white;
+    font-weight: bold;
+  }
+
+  a:hover{
+    color: yellow;
+  }

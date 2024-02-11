@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Earlham Park Hotel</title>
+    <link rel="stylesheet" href="css/bookstyle.css">
+    
+
+    <!-- CSS Stylesheets -->
+    
+    <link rel="stylesheet" href="css/styles.css">
+  
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3e46b36983.js" crossorigin="anonymous"></script>
+  
+    <!-- Bootstrap Scripts -->
+    
+  
+    
+  
+
+    <!-- CSS Stylesheets -->
+  
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="editdata.js" defer ></script>
+    
+</head>
+
+<body>
+   
+    <img src="images\logo.png" id="logo"/>
+    
+   
+    <h1>Change Details</h1>
+    <h3 id="error"></h3>
+
+    <!-- Form -->
+
+     <form action="" method="post" id="availableform">
+        <!--
+
+    <div class="elem-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+        <label for="email">Your E-mail</label>
+        <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+    </div>
+    <div class="elem-group">
+        <label for="phone">Your Phone</label>
+        <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872"
+               pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+    </div>
+    <hr>
+        -->
+
+  
+       
+        <div class="elem-group inlined">
+            <label for="Bno">Enter Booking No</label>
+            <input type="text" id="Bno" name="Bno" required>
+        </div>
+        <div class="elem-group inlined">
+            <label for="email">Enter Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="elem-group">
+            <label for="editDetails">Choose one request from the list:</label>
+            <select name="selectDetail" id="selectDetail">
+                <option selected="selected">Please Select </option>
+                <option value="Rooms">Add More Rooms</option>
+                <option value="Email">Change Email</option>
+                <option value="cancel">Cancel Booking</option>
+              </select>
+        </div>
+        <label id="changed"></label>
+        <input type ="hidden" id ="changedInput" ></input>
+       
+        <center><button type="submit" disabled id="editbtn">Edit Details</button></center></form>
+        <br>
+    </form>
+    <br>
+    <br>
+        <hr>
+        
+        <footer class="colored-section" id="footer">
+
+
+            <div class="container-fluid">
+              <i class="social-icon fab fa-facebook-f"></i>
+              <i class="social-icon fab fa-twitter"></i>
+              <i class="social-icon fab fa-instagram"></i>
+              <i class="social-icon fas fa-envelope"></i>
+              <p class="icon">© Copyright 2022 Earlham Park Hotel</p>
+            </div>
+          </footer>
+
+
+</body>
+
+</html>
